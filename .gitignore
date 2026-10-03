@@ -1,0 +1,13 @@
+# Dependencies are installed per environment; never commit platform-specific launchers.
+node_modules/
+
+# Generated Vite output
+dist/
+
+# Local Vercel state
+.vercel/
+
+# Tooling logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
